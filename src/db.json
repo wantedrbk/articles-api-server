@@ -1,0 +1,733 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "title": "json-server 2",
+      "author": "typicode"
+    },
+    {
+      "id": "3",
+      "title": "json-server 3",
+      "author": "typicode"
+    },
+    {
+      "id": "4",
+      "title": "json-server 4",
+      "author": "typicode"
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "firstname": "Dmytdddf",
+      "lastname": "Kostiufasdf",
+      "age": "51223",
+      "currency": "EUR",
+      "country": "Poland",
+      "city": "Mykolaiv",
+      "username": "typicoded",
+      "avatar": "https://random.imagecdn.app/500/500",
+      "position": "junior Frontend Developer"
+    },
+    {
+      "id": "2",
+      "firstname": "sdf",
+      "lastname": "Kostsdfsiuk",
+      "age": "23",
+      "currency": "UAH",
+      "country": "Ukraine",
+      "city": "Mykolaiv",
+      "username": "typicoddd",
+      "avatar": "https://random.imagecdn.app/500/500",
+      "position": "junior Frontend Developer"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 414141,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "CODE",
+          "content": "// response resolver\nconst postsResolver = ({ request, params, cookies }) => {\n  return HttpResponse.json([\n    {\n      title:\n        \"Что такое генераторы статических сайтов и почему Astro — лучший фреймворк для разработки лендингов\",\n      url: \"https://habr.com/ru/articles/779428/\",\n      author: \"@AlexGriss\",\n    },\n    {\n      title: \"Как использовать html-элемент <dialog>?\",\n      url: \"https://habr.com/ru/articles/778542/\",\n      author: \"@AlexGriss\",\n    },\n  ]);\n};"
+        },
+        {
+          "id": "3",
+          "type": "CARD",
+          "username": "wantedrbk",
+          "fullname": "Dmytro Kostiuk",
+          "position": "junior Frontend Developer"
+        },
+        {
+          "id": "5",
+          "type": "IMAGE",
+          "link": "https://random.imagecdn.app/500/350",
+          "title": "Image title"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Title",
+      "subtitle": "sssssuuuubbtitle",
+      "img": "https://random.imagecdn.app/250/250",
+      "author": "typicode",
+      "views": 210,
+      "createdAt": "25.11.2023",
+      "userId": "2",
+      "type": [
+        "CRYPTO"
+      ],
+      "blocks": []
+    },
+    {
+      "id": "3",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "SPORT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 530,
+      "createdAt": "21.12.2013",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация react нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 30,
+      "createdAt": "10.01.2024",
+      "type": [
+        "BUSINESS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 110,
+      "createdAt": "25.01.2023",
+      "type": [
+        "NEWS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 1110,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 710,
+      "createdAt": "05.06.2023",
+      "type": [
+        "ART"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 432,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT",
+        "BUSINESS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 1150,
+      "createdAt": "25.02.2016",
+      "type": [
+        "OTHER"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "ethereum В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "bitcoin A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "swift В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "go lang В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация bitcoin нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "java A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 777,
+      "createdAt": "25.04.2019",
+      "type": [
+        "ART"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "A Winning Strategy to Building Innovation Dream Teams",
+      "subtitle": "json-server subtitle",
+      "img": "https://random.imagecdn.app/500/500",
+      "userId": "1",
+      "views": 310,
+      "createdAt": "25.12.2023",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Block title",
+          "paragraphs": [
+            "В поле request будет доступна реализация нативного интерфейса Request из Fetch API, так что вы сможете использовать все стандартные методы и свойства соответствующего класса. В поле params будут доступны параметры пути, такие как, к примеру, postId для URL вида api/posts/:postId. Наконец, поле cookies содержит все установленные при запросе куки в виде строковых пар ключ-значение."
+          ]
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "nice 1comment",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "text": "bad 2comment",
+      "articleId": "1",
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "text": "avarage 3comment",
+      "articleId": "2",
+      "userId": "1"
+    },
+    {
+      "articleId": "2",
+      "text": "mkllkmkmkmklmk",
+      "userId": "1",
+      "id": "_7O3k27"
+    },
+    {
+      "articleId": "3",
+      "text": "123",
+      "userId": "1",
+      "id": "SKVFf7k"
+    },
+    {
+      "articleId": "3",
+      "text": "asdfasf23423",
+      "userId": "1",
+      "id": "eVZvlxI"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "12",
+      "role": "ADMIN",
+      "avatar": "https://random.imagecdn.app/500/500"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "22",
+      "role": "USER",
+      "avatar": "https://random.imagecdn.app/500/500"
+    }
+  ]
+}
